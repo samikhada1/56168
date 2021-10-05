@@ -7,6 +7,7 @@
 body {
     background-image: url(https://images2.alphacoders.com/110/thumb-1920-1109233.jpg);
     background-repeat:no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -369,7 +370,7 @@ div.bio h1 {
     grid-template-columns: 200px 140px 140px 140px;
     grid-template-rows: 90px 90px 90px 90px;
     grid-template-areas: "talentlvl talentlvl talentlvl talentlvl"
-                         "books booblvl2 booklvl3 booklvl4"
+                         "books booklvl2 booklvl3 booklvl4"
                          "yanfeicoin coinlvl2 coinlvl3 coinlvl4"
                          "tail bosstail bosstail bosstail"
 }
@@ -385,14 +386,23 @@ div.bio h1 {
     justify-content: center;
     align-items:center;
 }
-.booblvl2 {
-    grid-area: booblvl2;
+.booklvl2 {
+    grid-area: booklvl2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-.booblvl3 {
-    grid-area: booblvl3;
+.booklvl3 {
+    grid-area: booklvl3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-.booblvl4 {
-    grid-area: booblvl4;
+.booklvl4 {
+    grid-area: booklvl4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .yanfeicoin {
     grid-area: yanfeicoin;
@@ -402,12 +412,21 @@ div.bio h1 {
 }
 .coinlvl2 {
     grid-area: coinlvl2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coinlvl3 {
     grid-area: coinlvl3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coinlvl4 {
     grid-area: coinlvl4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .tail {
     grid-area: tail;
@@ -417,6 +436,9 @@ div.bio h1 {
 }
 .bosstail {
     grid-area: bosstail;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .background-information {
     display:grid;
@@ -455,6 +477,9 @@ div.bio h1 {
 .text{
     grid-area:text;
 }
+img {
+    display: block;
+}
 .left-side{
     grid-area:left-side;
     display:grid;
@@ -483,6 +508,7 @@ div.bio h1 {
 .card-general-information {
     grid-area:card-general-information;
     display:flex;
+    height:100vh;
 
 }
 .weapon-rarity-element {
@@ -623,13 +649,22 @@ div.bio h1 {
 }
 .little-red-stone {
     grid-area:little-red-stone;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .Noctilucous-Jade-3 {
     grid-area:Noctilucous-Jade-3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coints-phase-lvl-2-3 {
     grid-area:coints-phase-lvl-2-3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .phase-lvl-1-2{
     grid-area:phase-lvl-1-2;
@@ -645,15 +680,27 @@ div.bio h1 {
 }
 .small-red-stone-3 {
     grid-area:small-red-stone-3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .geovishap-item-2 {
     grid-area:geovishap-item-2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Noctilucous-Jade-10 {
     grid-area:Noctilucous-Jade-10;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coints-phase-lvl-2-15{
     grid-area:coints-phase-lvl-2-15;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .phase-lvl-2-3 {
     grid-area:phase-lvl-2-3;
@@ -669,15 +716,27 @@ div.bio h1 {
 }
 .small-red-stone-6 {
     grid-area: small-red-stone-6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .geovishap-item-4 {
     grid-area: geovishap-item-4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Noctilucous-Jade-20 {
     grid-area: Noctilucous-Jade-20;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coints-phase-lvl-3-12 {
     grid-area:coints-phase-lvl-3-12;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .phase-lvl-3-4 {
     grid-area: phase-lvl-3-4;
@@ -693,15 +752,27 @@ div.bio h1 {
 }
 .big-red-stone-3{
     grid-area: big-red-stone-3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .geovishap-item-8{
     grid-area: geovishap-item-8;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Noctilucous-Jade-30 {
     grid-area: Noctilucous-Jade-30;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coints-phase-lvl-3-18 {
     grid-area: coints-phase-lvl-3-18;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .phase-lvl-4-5 {
     grid-area: phase-lvl-4-5;
@@ -717,15 +788,27 @@ div.bio h1 {
 }
 .big-red-stone-6 {
     grid-area: big-red-stone-6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .geovishap-item-12 {
     grid-area: geovishap-item-12;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Noctilucous-Jade-45 {
     grid-area: Noctilucous-Jade-45;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coints-phase-lvl-4-12 {
     grid-area: coints-phase-lvl-4-12;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .phase-lvl-5-6 {
     grid-area: phase-lvl-5-6;
@@ -741,14 +824,26 @@ div.bio h1 {
 }
 .huge-red-stone-6 {
     grid-area: huge-red-stone-6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .geovishap-item-20 {
     grid-area: geovishap-item-20;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Noctilucous-jade-60 {
     grid-area: Noctilucous-jade-60;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .coints-phase-lvl-6-24 {
     grid-area: coints-phase-lvl-6-24;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
     

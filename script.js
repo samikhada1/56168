@@ -1,16 +1,16 @@
-let img = document.querySelector('#img');
-let card = document.querySelector('#card');
-let portrait = document.querySelector('#iportraitmg');
-let ingame = document.querySelector('#ingame');
+let img = document.querySelector('img');
+let btn1 = document.querySelector('#btn1');
+let btn2 = document.querySelector('#btn2');
+let btn3 = document.querySelector('#btn3');
 
-card.addEventListener('click', () => {
-    img.src = 'Character_Yanfei_Card.png';
+btn1.addEventListener('click', () => {
+    img.src ='Character_Yanfei_Card.png';
 })
 
-portrait.addEventListener('click', () => {
-    img.src = 'Character_Yanfei_Portrait.png';
+btn2.addEventListener('click', () => {
+    img.src ='Character_Yanfei_Game.png';
 })
 
-ingame.addEventListener('click', () => {
-    img.src = 'Character_Yanfei_Game.png';
+btn3.addEventListener('click', () => {
+    img.src ='Character_Yanfei_Portrait.png';
 })
