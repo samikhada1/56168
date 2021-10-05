@@ -1,0 +1,754 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    list-style:none;
+}
+body {
+    background-image: url(https://images2.alphacoders.com/110/thumb-1920-1109233.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    width:100%;
+    background-color:rgb(64, 91, 214);
+    position:sticky;
+    float:none;
+    top:0;
+
+}
+label.logo {
+    font-size: 45px;
+    color: rgb(63, 187, 209);
+    padding:60px;
+    align-items:center;
+    line-height: 60px;
+}
+nav ul {
+    float:right;
+    margin-right: 30px;
+}
+nav ul li {
+    display:inline-block;
+    line-height: 60px;
+    padding-right: 12px;
+    margin: 0 65px;
+}
+ul li a {
+    color: white;
+    font-size:15px;
+    text-transform: uppercase;
+    transition: color 300ms ease-in-out;
+} 
+a:hover {
+    color:rgb(255, 0, 0);
+    transition: color 300ms ease-in-out;
+}
+.grid02 {
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 4fr 2fr;
+    grid-template-areas: "bio picture"
+                         "bio picture";
+}
+.picture {
+    grid-area: picture;
+}
+.bio{
+    grid-area: bio;
+}
+div.bio h1 {
+    text-transform: uppercase;
+    text-align:center;
+    padding:10px;
+}
+.grid03{
+    display:grid;
+
+}
+.grid04{
+    padding-top:100px;
+    height:100vh;
+    margin-left:5%;
+    margin-right:5%;
+    display:grid;
+    grid-template-columns: 150px 2fr 2fr;
+    grid-template-rows: 60px repeat(13, 1fr);
+    grid-template-areas: "tallents tallents tallents"
+                         "icon NAME type"
+                         "icons00 name-normalla type-normalla"
+                         "normalla normalla normalla"
+                         "icons01 name-icons01 type-icons01"
+                         "Etalent Etalent Etalent"
+                         "icons02 name-icons02 type-icons02"
+                         "Qtalent Qtalent Qtalent"
+                         "icons03 name-icons03 type-icons03"
+                         "Fpassive Fpassive Fpassive"
+                         "icons04 name-icons04 type-icons04"
+                         "Spassive Spassive Spassive"
+                         "icons05 name-icons05 type-icons05"
+                         "Tpassive Tpassive Tpassive"
+}
+.type-icons05 {
+    grid-area: type-icons05;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.name-icons05{
+    grid-area: name-icons05;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.type-icons04 {
+    grid-area:type-icons04;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.name-icons04{
+    grid-area: name-icons04;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.type-icons03 {
+    grid-area: type-icons03;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.name-icons03{
+    grid-area:name-icons03;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.type-icons02 {
+    grid-area: type-icons02;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.name-icons02 {
+    grid-area:name-icons02;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.type-icons01 {
+    grid-area:type-icons01;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.icon {
+    grid-area:icon;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.NAME {
+    grid-area:NAME;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.type{
+    grid-area:type;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.name-normalla {
+    grid-area:name-normalla;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.name-icons01 {
+    grid-area: name-icons01;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.type-normalla{
+    grid-area: type-normalla;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.tallents {
+    grid-area:tallents;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.icons00 {
+    grid-area:icons00;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.normalla{
+    grid-area:normalla;
+    border:1px solid black;
+}
+.icons01 {
+    grid-area:icons01;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.Etalent {
+    grid-area:Etalent;
+    border:1px solid black;
+}
+.icons02 {
+    grid-area:icons02;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.Qtalent{
+    grid-area:Qtalent;
+    border:1px solid black;
+}
+.icons03{
+    grid-area:icons03;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.Fpassive{
+    grid-area:Fpassive;
+    border:1px solid black;
+
+}
+.icons04{
+    grid-area:icons04;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.Spassive{
+    grid-area:Spassive;
+    border:1px solid black;
+}
+.icons05{
+    grid-area:icons05;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.Tpassive{
+    grid-area:Tpassive;
+    border:1px solid black;
+}
+.grid05 {
+    padding-top:170px;
+    height:55vh;
+    margin-left:5%;
+    margin-right:5%;
+    display:grid;
+    grid-template-columns: 40px 0.4fr 0.5fr 3fr;
+    grid-template-rows:50px 60px 60px 60px 60px 60px 60px 60px;
+    grid-template-areas:    "const const const const"
+                            "n1 const1 nameconst1 effect1"
+                            "n2 const2 nameconst2 effect2"
+                            "n3 const3 nameconst3 effect3"
+                            "n4 const4 nameconst4 effect4"
+                            "n5 const5 nameconst5 effect5"
+                            "n6 const6 nameconst6 effect6";
+}
+.const {
+    grid-area:const;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.n1 {
+    grid-area:n1;
+} 
+.const1 {
+    grid-area:const1;
+}
+.nameconst1 {
+    grid-area: nameconst1;
+}
+.effect1{
+    grid-area: effect1;
+}
+.n2 {
+    grid-area:n2;
+} 
+.const2 {
+    grid-area:const2;
+}
+.nameconst2 {
+    grid-area: nameconst2;
+}
+.effect2{
+    grid-area: effect2;
+}
+.n3 {
+    grid-area:n3;
+} 
+.const3 {
+    grid-area:const3;
+}
+.nameconst3 {
+    grid-area: nameconst3;
+}
+.effect3{
+    grid-area: effect3;
+}
+.n4 {
+    grid-area:n4;
+} 
+.const4 {
+    grid-area:const4;
+}
+.nameconst4 {
+    grid-area: nameconst4;
+}
+.effect4{
+    grid-area: effect4;
+}
+.n5 {
+    grid-area:n5;
+} 
+.const5 {
+    grid-area:const5;
+}
+.nameconst5 {
+    grid-area: nameconst5;
+}
+.effect5{
+    grid-area: effect5;
+}
+.n6 {
+    grid-area:n6;
+} 
+.const6 {
+    grid-area:const6;
+}
+.nameconst6 {
+    grid-area: nameconst6;
+}
+.effect6{
+    grid-area: effect6;
+}
+.grid06 {
+    margin-left:5%;
+    margin-right:5%;
+    display:grid;
+    grid-template-columns: 200px 140px 140px 140px;
+    grid-template-rows: 90px 90px 90px 90px;
+    grid-template-areas: "talentlvl talentlvl talentlvl talentlvl"
+                         "books booblvl2 booklvl3 booklvl4"
+                         "yanfeicoin coinlvl2 coinlvl3 coinlvl4"
+                         "tail bosstail bosstail bosstail"
+}
+.talentlvl {
+    grid-area: talentlvl;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.books {
+    grid-area: books;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.booblvl2 {
+    grid-area: booblvl2;
+}
+.booblvl3 {
+    grid-area: booblvl3;
+}
+.booblvl4 {
+    grid-area: booblvl4;
+}
+.yanfeicoin {
+    grid-area: yanfeicoin;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.coinlvl2 {
+    grid-area: coinlvl2;
+}
+.coinlvl3 {
+    grid-area: coinlvl3;
+}
+.coinlvl4 {
+    grid-area: coinlvl4;
+}
+.tail {
+    grid-area: tail;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.bosstail {
+    grid-area: bosstail;
+}
+.background-information {
+    display:grid;
+    height:135vh;
+    border:1px solid black;
+    margin-left:5%;
+    margin-right:5%;
+    padding-top:10px;
+    grid-template-columns: 2fr 1.5fr;
+    grid-template-rows: 3fr 3fr;
+    grid-template-areas: "right-side left-side"
+                         "right-side left-side";
+}
+.right-side {
+    grid-area: right-side;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 0.4fr 0.8fr 1fr 1fr;
+    grid-template-areas: "Introduction"
+                         "text"
+                         "Appearance"
+                         "Personality"
+}
+.right-side{
+    text-indent:25px;
+}
+.Introduction {
+    grid-area:Introduction;
+}
+.Personality{
+    grid-area:Personality;
+}
+.Appearance{
+    grid-area:Appearance;
+}
+.text{
+    grid-area:text;
+}
+.left-side{
+    grid-area:left-side;
+    display:grid;
+    grid-template-columns:1.5fr;
+    grid-template-rows: 0.2fr 0.3fr 1fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-areas: "wishes"
+                         "chanhing-img"
+                         "card-general-information"
+                         "weapon-rarity-element"
+                         "sex"
+                         "date"
+                         "constellation"
+                         "city"
+                         "ocupation"
+                         "dish"
+                         "way-to-get"
+                         "release"
+}   
+.wishes{
+    grid-area: wishes;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.card-general-information {
+    grid-area:card-general-information;
+    display:flex;
+
+}
+.weapon-rarity-element {
+    grid-area:weapon-rarity-element;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.sex {
+    grid-area:sex;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.date{
+    grid-area:date;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.constellation {
+    grid-area: constellation;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.city {
+    grid-area:city;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.ocupation {
+    grid-area: ocupation;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.dish {
+    grid-area:dish;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.way-to-get{
+    grid-area:way-to-get;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.release{
+    grid-area:release;
+    margin-top:7px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.white-back{
+    background-color:white;
+    margin-left:15%;
+    margin-right:15%;
+    height:100%;
+}
+.Ascensions {
+    display:grid;
+    margin-top:20px;
+    margin-left:5%;
+    margin-right:5%;
+    border:1px solid black;
+    grid-template-columns: 150px 1fr 1.3fr 1fr 1fr 1fr;
+    grid-template-rows: 60px repeat(6, 1fr);
+    grid-template-areas: "phase imgmora ascmaterials ascmaterials local common"
+                         "phase-lvl-0-1 mora-yanfei-phase-1 little-red-stone little-red-stone Noctilucous-Jade-3 coints-phase-lvl-2-3"
+                         "phase-lvl-1-2 mora-yanfei-phase-2 small-red-stone-3 geovishap-item-2 Noctilucous-Jade-10 coints-phase-lvl-2-15"
+                         "phase-lvl-2-3 mora-yanfei-phase-3 small-red-stone-6 geovishap-item-4 Noctilucous-Jade-20 coints-phase-lvl-3-12"
+                         "phase-lvl-3-4 mora-yanfei-phase-4 big-red-stone-3 geovishap-item-8 Noctilucous-Jade-30 coints-phase-lvl-3-18"
+                         "phase-lvl-4-5 mora-yanfei-phase-5 big-red-stone-6 geovishap-item-12 Noctilucous-Jade-45 coints-phase-lvl-4-12"
+                         "phase-lvl-5-6 mora-yanfei-phase-6 huge-red-stone-6 geovishap-item-20 Noctilucous-jade-60 coints-phase-lvl-6-24"
+}
+.phase {
+    grid-area:phase;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.imgmora {
+    grid-area: imgmora;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.ascmaterials {
+    grid-area:ascmaterials;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.local {
+    grid-area: local;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.common {
+    grid-area:common;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.phase-lvl-0-1 {
+    grid-area:phase-lvl-0-1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.mora-yanfei-phase-1 {
+    grid-area:mora-yanfei-phase-1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.little-red-stone {
+    grid-area:little-red-stone;
+
+}
+.Noctilucous-Jade-3 {
+    grid-area:Noctilucous-Jade-3;
+}
+.coints-phase-lvl-2-3 {
+    grid-area:coints-phase-lvl-2-3;
+}
+.phase-lvl-1-2{
+    grid-area:phase-lvl-1-2;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.mora-yanfei-phase-2 {
+    grid-area: mora-yanfei-phase-2;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.small-red-stone-3 {
+    grid-area:small-red-stone-3;
+}
+.geovishap-item-2 {
+    grid-area:geovishap-item-2;
+}
+.Noctilucous-Jade-10 {
+    grid-area:Noctilucous-Jade-10;
+}
+.coints-phase-lvl-2-15{
+    grid-area:coints-phase-lvl-2-15;
+}
+.phase-lvl-2-3 {
+    grid-area:phase-lvl-2-3;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.mora-yanfei-phase-3 {
+    grid-area: mora-yanfei-phase-3;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.small-red-stone-6 {
+    grid-area: small-red-stone-6;
+}
+.geovishap-item-4 {
+    grid-area: geovishap-item-4;
+}
+.Noctilucous-Jade-20 {
+    grid-area: Noctilucous-Jade-20;
+}
+.coints-phase-lvl-3-12 {
+    grid-area:coints-phase-lvl-3-12;
+}
+.phase-lvl-3-4 {
+    grid-area: phase-lvl-3-4;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.mora-yanfei-phase-4 {
+    grid-area: mora-yanfei-phase-4;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.big-red-stone-3{
+    grid-area: big-red-stone-3;
+}
+.geovishap-item-8{
+    grid-area: geovishap-item-8;
+}
+.Noctilucous-Jade-30 {
+    grid-area: Noctilucous-Jade-30;
+}
+.coints-phase-lvl-3-18 {
+    grid-area: coints-phase-lvl-3-18;
+}
+.phase-lvl-4-5 {
+    grid-area: phase-lvl-4-5;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.mora-yanfei-phase-5 {
+    grid-area: mora-yanfei-phase-5;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.big-red-stone-6 {
+    grid-area: big-red-stone-6;
+}
+.geovishap-item-12 {
+    grid-area: geovishap-item-12;
+}
+.Noctilucous-Jade-45 {
+    grid-area: Noctilucous-Jade-45;
+}
+.coints-phase-lvl-4-12 {
+    grid-area: coints-phase-lvl-4-12;
+}
+.phase-lvl-5-6 {
+    grid-area: phase-lvl-5-6;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.mora-yanfei-phase-6 {
+    grid-area: mora-yanfei-phase-6;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.huge-red-stone-6 {
+    grid-area: huge-red-stone-6;
+}
+.geovishap-item-20 {
+    grid-area: geovishap-item-20;
+}
+.Noctilucous-jade-60 {
+    grid-area: Noctilucous-jade-60;
+}
+.coints-phase-lvl-6-24 {
+    grid-area: coints-phase-lvl-6-24;
+}
+    
